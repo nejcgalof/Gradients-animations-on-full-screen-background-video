@@ -1,8 +1,9 @@
 var granimInstance;
 var is_cleared = true;
 var icon_play_pause;
-new Vidage('#VidageVideo');
+new Vidage('#VidageVideo'); //create playing video
 
+//init granim and all states
 function init_granim() {
 	granimInstance = new Granim({
 		element: '#canvas-image',
