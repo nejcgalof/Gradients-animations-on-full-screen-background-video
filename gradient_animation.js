@@ -1,5 +1,6 @@
 var granimInstance;
-var is_cleared=true;
+var is_cleared = true;
+var icon_play_pause;
 new Vidage('#VidageVideo');
 
 function init_granim() {
@@ -86,6 +87,9 @@ function change_granim(){
 			granimInstance.play();
 		}
 	}
+	icon_play_pause = document.getElementById("status_play");
+	icon_play_pause.classList.add("icon-play");
+	icon_play_pause.classList.remove("icon-pause");
 }
 
 function clear_choise(){
@@ -99,14 +103,14 @@ function clear_choise(){
 
 function gradient_fashion(){
 	clear_choise();
-	document.getElementById("href-fashion").className = "choise" ;
+	document.getElementById("href-fashion").className = "choise";
 	change_granim();
 	granimInstance.changeState('default-state');
 }
 
 function gradient_police(){
 	clear_choise();
-	document.getElementById("href-police").className = "choise" ;
+	document.getElementById("href-police").className = "choise";
 	change_granim();
 	granimInstance.changeState('police-state');
 }
@@ -127,15 +131,16 @@ function gradient_fire(){
 
 function gradient_pause(){
 	clear_choise();
+	icon_play_pause = document.getElementById("status_play");
+	icon_play_pause.classList.add("icon-pause");
+	icon_play_pause.classList.remove("icon-play");
 	if(granimInstance){
 		granimInstance.pause();
 	}
 	if(is_cleared){
 		document.getElementById("href-clear").className = "choise";
 	}
-	else{
-		document.getElementById("href-pause").className = "choise";
-	}
+	document.getElementById("href-pause").className = "choise";
 }
 
 function gradient_clear(){
@@ -145,4 +150,8 @@ function gradient_clear(){
 		is_cleared=true;
 		granimInstance.clear();
 	}
+	icon_play_pause = document.getElementById("status_play");
+	icon_play_pause.classList.add("icon-pause");
+	icon_play_pause.classList.remove("icon-play");
+	document.getElementById("href-pause").className = "choise";
 }
