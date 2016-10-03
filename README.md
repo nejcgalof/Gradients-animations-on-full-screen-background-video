@@ -4,7 +4,7 @@ With this project we want to demonstrate different gradient animations on full s
 
 Demo
 ----------
-See the [demo site](/).
+See the [demo site](https://nejcgalof.github.io/Gradients-animations-on-full-screen-background-video/).
 Libraries
 ----------
 We using two awesome Javascript libraries. 
@@ -14,9 +14,9 @@ We using two awesome Javascript libraries.
 
 Screenshots
 ----------
-![no gradient](/screenshots/no_gradient.png)
-![no gradient](/screenshots/with_gradient1.png)
-![no gradient](/screenshots/with_gradient2.png)
+![no gradient](/screenshots/no_gradient.png?raw=true)
+![no gradient](/screenshots/with_gradient1.png?raw=true)
+![no gradient](/screenshots/with_gradient2.png?raw=true)
 Thanks
 ----------
-To Lucija Potočnik (Miss universe Slovenia 2016). *Person on video - See the [demo site](/).*
+To Lucija Potočnik (Miss universe Slovenia 2016). *Person on video - See the [demo site](https://nejcgalof.github.io/Gradients-animations-on-full-screen-background-video/).*
