@@ -14,9 +14,9 @@ We using two awesome Javascript libraries.
 
 Screenshots
 ----------
-![no gradient](/screenshots/no_gradient.png?raw=true)
-![no gradient](/screenshots/with_gradient1.png?raw=true)
-![no gradient](/screenshots/with_gradient2.png?raw=true)
+![no gradient](https://github.com/nejcgalof/Gradients-animations-on-full-screen-background-video/blob/master/screenshots/no_gradient.PNG)
+![no gradient](https://github.com/nejcgalof/Gradients-animations-on-full-screen-background-video/blob/master/screenshots/with_gradient1.PNG)
+![no gradient](https://github.com/nejcgalof/Gradients-animations-on-full-screen-background-video/blob/master/screenshots/with_gradient2.PNG)
 Thanks
 ----------
 To Lucija Potočnik (Miss universe Slovenia 2016). *Person on video - See the [demo site](https://nejcgalof.github.io/Gradients-animations-on-full-screen-background-video/).*
