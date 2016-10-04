@@ -4,7 +4,7 @@ With this project we want to demonstrate different gradient animations on full s
 
 Demo
 ----------
-See the [demo site](https://nejcgalof.github.io/Gradients-animations-on-full-screen-background-video/). Sometimes you need refresh or wait little time, because video file (size: 16MB) must upload.
+See the [demo site](https://nejcgalof.github.io/Gradients-animations-on-full-screen-background-video/). Sometimes you need refresh or wait little time, because video file (16MB) must upload.
 Libraries
 ----------
 We using two awesome Javascript libraries. 
